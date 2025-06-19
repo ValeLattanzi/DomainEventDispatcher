@@ -1,0 +1,75 @@
+# Rider
+.idea/
+
+# Visual Studio
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+publish/
+TestResults/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# .NET user secrets
+secrets.json
+
+# Config local (ajustá según necesidad)
+config/
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Rider-specific caches
+.idea/.idea.*
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# Node/npm (si llegás a incluir front)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# SonarQube
+.sonar/
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Docker
+**/.dockerignore
+**/Dockerfile
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore files related to migrations
+Migrations/
+
+# Ignore personal files
+*.db
+
+# No ignores para la carpeta .git/
+!.git/
